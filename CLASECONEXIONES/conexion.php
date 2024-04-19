@@ -23,7 +23,7 @@ public function conectar(){
   dbname='.$this->db,
   $this->user,
   $this->password,
-  $opcion
+  $opcion 
 
 );
  if( $this->conexion){
